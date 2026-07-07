@@ -1,0 +1,13 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "plus.gym/gym-plus",
+  "description": "Connect ChatGPT or Claude to your Gym Plus account to log and review workouts with AI coaching.",
+  "version": "1.0.0",
+  "websiteUrl": "https://gym.plus",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://gym.plus/api/mcp"
+    }
+  ]
+}
